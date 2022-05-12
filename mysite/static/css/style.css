@@ -1,0 +1,47 @@
+html {
+  
+}
+
+body {
+  
+}
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.sidebar {
+  height: calc(100vh - 56px);
+  position: fixed;
+}
+
+.main {
+  margin: 60px 0 0 300px;
+}
+
+.main .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.seat_column {
+  width: 230px;
+}
+.seat_column .seat_row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.seat_column .seat_row a {
+  width: 45%;
+}
+
+.seat_column .seat_row a img {
+  width: 100%;
+}
+
+.seat_column .seat_row img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
