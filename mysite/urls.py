@@ -5,5 +5,7 @@ from mysite import views
 
 
 urlpatterns = [
-    url(r'^$', views.index)
+    # url(r'^$', views.index)
+    # path('', views.mysiteListView.as_view(), name="list"),
+    path('', views.AssetStatusView),
 ]

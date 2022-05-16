@@ -146,6 +146,15 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <table>
+        <tbody>
+          {% for assetstatus in assetStatus %}
+            <tr>{{ assetstatus.name }}</tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </div>
   
   <!-- Scrollable modal -->
