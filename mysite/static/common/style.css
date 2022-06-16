@@ -1,0 +1,24 @@
+.hide {
+    display: none;
+}
+
+#sidebar {
+    height: calc(100% - 60px);
+    position: fixed;
+}
+
+/* #chart {
+    width: calc(100% - 200px);
+    padding: 20px;
+}
+
+#chart2 {
+    width: calc(100% - 200px);
+    padding: 20px;
+} */
+
+.contents {
+    width: calc(100% - 200px);
+    padding: 20px;
+}
+
